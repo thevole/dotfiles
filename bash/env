@@ -1,0 +1,12 @@
+export EDITOR="mate -w"
+export PATH=$PATH:~/bin
+
+# Clojure
+export CLASSPATH=$CLASSPATH:/usr/local/Cellar/clojure-contrib/1.2.0/clojure-contrib.jar
+
+# CoffeeScript
+export NODE_PATH=/usr/local/lib/node_modules
+
+# Setting Path for SMLNJ
+export PATH=/usr/local/smlnj/bin:$PATH
+
