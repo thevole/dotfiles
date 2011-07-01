@@ -11,16 +11,18 @@ alias tm='top -o vsize' # memory
 alias g="git status"
 alias h="history"
 alias l="ls -laGh"
+alias ll="l | less"
 alias ..="cd .."
 alias cdd="cd -"
 alias rd='rm -rf'
 
-# Rails
-alias rlg="rails g"
-alias rls="rails s"
+# Rails and Ruby
+alias rg="rails g"
+alias rs="rails s"
 alias r="rake"
 alias rmig="rake db:migrate"
 alias rmigt="rake db:migrate && rake db:test:prepare"
+alias gu="gem update"
 
 # GIT
 alias gl="git lg"
