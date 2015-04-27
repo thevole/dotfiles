@@ -1,15 +1,20 @@
-HISTFILE=~/.zsh_history
-SAVEHIST=10000
-HISTSIZE=10000
+#HISTFILE=~/.zsh_history
+#SAVEHIST=10000
+#HISTSIZE=10000
 
-REPORTTIME=10 # Show elapsed time if command took more than X seconds
-LISTMAX=0 # Ask to complete if top of list would scroll off screen
+#REPORTTIME=10 # Show elapsed time if command took more than X seconds
+#LISTMAX=0 # Ask to complete if top of list would scroll off screen
 
-# Load completions for Ruby, Git, etc
-autoload compinit
-compinit
+# Turn on some options
+# setopt auto_cd
+#setopt extended_glob
+#setopt ignore_eof
+
 
 # Make CTRL-W delete after other chars, not just spaces
-WORDCHARS=${WORDCHARS//[&=\/;\!#%\{]}
+# WORDCHARS=${WORDCHARS//[&=\/;\!#%\{]}
 
-bindkey -e
+# key bindings
+#bindkey -e
+#bindkey 'C-w' kill-region
+

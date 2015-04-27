@@ -1,0 +1,61 @@
+# reload aliases
+alias reload="source ~/bin/dotfiles/zsh/aliases"
+
+# VIM Ctags
+alias retag='ctags -R --exclude=.svn --exclude=.git --exclude=log --exclude=tmp *'
+
+# Emacs
+alias ec="emacsclient"
+
+# Powder
+alias poo="powder open -b 'Google Chrome'"
+
+# Homebrew
+alias bu="brew update -all && brew upgrade"
+
+alias tu='top -o cpu' # cpu
+alias tm='top -o vsize' # memory
+
+alias g="git status"
+alias h="history"
+alias rd='rm -rf'
+
+# Rails and Ruby
+alias rg="rails g"
+alias rs="rails s"
+alias rmig="rake db:migrate"
+alias rmigt="rake db:migrate && rake db:test:prepare"
+alias gu="gem update"
+alias b='bundle'
+
+# GIT
+# alias gl="git lg"
+alias glg="git lg"
+alias s="git status --short"
+alias glog='git log --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset"'
+alias gco='git checkout'
+alias gcop='gco -p'
+alias gl='glog --graph'
+alias gm='git merge --no-ff'
+alias gmf='git merge --ff-only'
+
+# freq folders
+alias cdfp="cd ~/Projects/firepit"
+alias cdx="cd ~/Projects/CPEX"
+alias cdud="cd ~/Projects/urbandiary"
+alias cdvv="cd ~/Projects/verticalventure"
+
+alias word="open -a Microsoft\ Word"
+alias excel="open -a Microsoft\ Excel"
+alias hibernateon="sudo pmset -a hibernatemode 3"
+alias hibernateoff="sudo pmset -a hibernatemode 0"
+alias locate.update="sudo /usr/libexec/locate.updatedb"
+
+
+# GIT
+# function gg() {
+#   git commit -v -a -m "$*"
+# }
+
+
+#gemdoc=`rvm gem environment gemdir`/doc
