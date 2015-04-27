@@ -11,7 +11,7 @@ alias ec="emacsclient"
 alias poo="powder open -b 'Google Chrome'"
 
 # Homebrew
-alias bu="brew update -all && brew upgrade"
+alias bu="brew update && brew upgrade -all"
 
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
