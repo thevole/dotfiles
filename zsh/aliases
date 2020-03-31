@@ -11,7 +11,7 @@ alias ec="emacsclient"
 alias poo="powder open -b 'Google Chrome'"
 
 # Homebrew
-alias bu="brew update && brew upgrade --all"
+alias bup="brew update && brew upgrade"
 
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
@@ -21,7 +21,7 @@ alias h="history"
 alias rd='rm -rf'
 
 # Rails and Ruby
-alias rg="rails g"
+# alias rg="rails g"
 alias rs="rails s"
 alias rmig="rake db:migrate"
 alias rmigt="rake db:migrate && rake db:test:prepare"
@@ -50,6 +50,9 @@ alias excel="open -a Microsoft\ Excel"
 alias hibernateon="sudo pmset -a hibernatemode 3"
 alias hibernateoff="sudo pmset -a hibernatemode 0"
 alias locate.update="sudo /usr/libexec/locate.updatedb"
+
+alias vim=nvim
+alias vi=nvim
 
 
 # GIT
