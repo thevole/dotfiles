@@ -53,6 +53,9 @@ alias hibernateon="sudo pmset -a hibernatemode 3"
 alias hibernateoff="sudo pmset -a hibernatemode 0"
 alias locate.update="sudo /usr/libexec/locate.updatedb"
 
+alias vim=nvim
+alias vi=nvim
+
 
 # GIT
 # function gg() {
