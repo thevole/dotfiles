@@ -4,6 +4,8 @@ alias reload="source ~/bin/dotfiles/zsh/aliases"
 # VIM Ctags
 alias retag='ctags -R --exclude=.svn --exclude=.git --exclude=log --exclude=tmp *'
 
+alias pipup='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
+
 # Emacs
 alias ec="emacsclient"
 
@@ -11,7 +13,7 @@ alias ec="emacsclient"
 alias poo="powder open -b 'Google Chrome'"
 
 # Homebrew
-alias bu="brew update && brew upgrade --all"
+alias bup="brew update && brew upgrade"
 
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
@@ -21,12 +23,12 @@ alias h="history"
 alias rd='rm -rf'
 
 # Rails and Ruby
-alias rg="rails g"
-alias rs="rails s"
-alias rmig="rake db:migrate"
-alias rmigt="rake db:migrate && rake db:test:prepare"
-alias gu="gem update"
-alias b='bundle'
+# alias rg="rails g"
+# alias rs="rails s"
+# alias rmig="rake db:migrate"
+# alias rmigt="rake db:migrate && rake db:test:prepare"
+# alias gu="gem update"
+# alias b='bundle'
 
 # GIT
 # alias gl="git lg"
